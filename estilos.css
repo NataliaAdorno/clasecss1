@@ -2,6 +2,7 @@
     background-color: rgb(110, 197, 168);
     color:rgb(5, 1, 1);
     text-align: center;
+    font-family: 'Silkscreen';
 }
 
 #imgperfil{
@@ -25,4 +26,33 @@ h2{
     margin-left: 15%;
 }
    
+.divInline{
+    display: block;
+}
 
+#familia{
+    display: inline-block;
+}
+
+#filmografia{
+    display:inline-block;
+}
+
+#biografia{
+    display: inline;
+}
+
+.flexelemento{
+    width: 200px;
+    height: 200px;
+    background-color: beige;
+    margin: 15px;
+    color: black;
+    font-size: 500%;
+
+}
+.flexcontenedor{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+}
